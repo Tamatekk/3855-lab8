@@ -1,0 +1,11 @@
+version: 1 
+datastore: 
+  filename: stats.sqlite 
+scheduler: 
+  period_sec: 5 
+eventstore: 
+  url: http://localhost:8090
+events: 
+  hostname:  lab63885.westus3.cloudapp.azure.com
+  port: 9092 
+  topic: events

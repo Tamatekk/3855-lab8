@@ -1,0 +1,127 @@
+openapi: 3.0.0
+info:
+  description: This API recieves water readings from water measurement devices
+  version: "1.0.0"
+  title: Water reading API
+  contact:
+    email: rpi.irman@gmail.com
+tags:
+  - name: devices 
+    description: Operations available to measurement devices
+paths: 
+  /readings/water_pressure_PH/stats:
+    get: 
+      tags: 
+        - devices 
+      summary: gets new water pressure readings 
+      operationId: app.get_water_pressure_PH_readings 
+      description: Gets blood pressure readings added after a timestamp 
+      parameters: 
+        - name: timestamp 
+          in: query 
+          description: Limits the number of items on a page 
+          schema: 
+            type: string 
+            format: date-time 
+            example: '2022-02-12T10:12:45Z' 
+      responses: 
+        '200': 
+          description: Successfully returned a list of blood pressure events 
+          content: 
+            application/json: 
+              schema: 
+                type: array 
+                items: 
+                  $ref: '#/components/schemas/WaterPressurePH' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string
+  /readings/water_temperature/stats:
+    get: 
+      tags: 
+        - devices 
+      summary: gets new water pressure readings 
+      operationId: app.get_water_temperature_readings 
+      description: Gets blood pressure readings added after a timestamp 
+      parameters: 
+        - name: timestamp 
+          in: query 
+          description: Limits the number of items on a page 
+          schema: 
+            type: string 
+            format: date-time 
+            example: '2022-02-12T10:12:45Z' 
+      responses: 
+        '200': 
+          description: Successfully returned a list of blood pressure events 
+          content: 
+            application/json: 
+              schema: 
+                type: array 
+                items: 
+                  $ref: '#/components/schemas/WaterTemperature' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string
+
+components:
+  schemas:
+    WaterPressurePH:
+      type: object
+      required:
+        - timestamp
+        - device_id
+        - kPa
+        - PH
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-02-12T10:12:45Z'
+        device_id:
+          type: string
+          example: A12345
+        kPa:
+          type: integer
+          example: 6
+        PH:
+          type: number
+          format: float
+          example: 5.55
+        trace_id:
+          type: string
+          example: A12345
+    WaterTemperature:
+      type: object
+      required:
+        - timestamp
+        - device_id
+        - Celcius
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-02-12T10:12:45Z'
+        device_id:
+          type: string
+          example: A12345
+        Celcius:
+          type: number
+          format: float
+          example: 5.
+        trace_id:
+          type: string
+          example: A12345
+

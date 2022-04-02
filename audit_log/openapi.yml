@@ -1,0 +1,130 @@
+openapi: 3.0.0 
+info: 
+  description: This API provides audit info 
+  version: "1.0.0" 
+  title: Audit API 
+  contact: 
+    email: mmulder10@bcit.ca 
+ 
+paths: 
+  /water_pressure_PH: 
+    get: 
+      summary: gets a water pressure reading from history 
+      operationId: app.get_water_pressure_PH 
+      description: Gets water pressure readings from the event store 
+      parameters: 
+        - name: index 
+          in: query 
+          description: Gets the BP at the index in the event store 
+          schema: 
+            type: integer 
+            example: 100 
+      responses: 
+        '200': 
+          description: Successfully returned a water pressure event 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                items: 
+                  $ref: '#/components/schemas/WaterPressurePHReading' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string 
+        '404': 
+          description: Not Found 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string 
+ 
+  /water_temperature: 
+    get: 
+      summary: gets a water temp reading from history 
+      operationId: app.get_water_temperature 
+      description: Gets water temp reading from the event store 
+      parameters: 
+        - name: index 
+          in: query 
+          description: Gets the HR at the index in the event store 
+          schema: 
+            type: integer 
+            example: 100 
+      responses: 
+        '200': 
+          description: Successfully returned a heart rate event 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                items: 
+                  $ref: '#/components/schemas/WaterTempReading' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string 
+        '404': 
+          description: Not Found 
+
+components:
+  schemas:
+    WaterPressurePHReading:
+      type: object
+      required:
+        - timestamp
+        - device_id
+        - kPa
+        - PH
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-02-12T10:12:45Z'
+        device_id:
+          type: string
+          example: A12345
+        kPa:
+          type: integer
+          example: 6
+        PH:
+          type: number
+          format: float
+          example: 5.55
+        trace_id:
+          type: string
+          example: A12345
+    WaterTempReading:
+      type: object
+      required:
+        - timestamp
+        - device_id
+        - Celcius
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-02-12T10:12:45Z'
+        device_id:
+          type: string
+          example: A12345
+        Celcius:
+          type: number
+          format: float
+          example: 5.
+        trace_id:
+          type: string
+          example: A12345

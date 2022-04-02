@@ -1,0 +1,9 @@
+version: 1 
+eventstore1: 
+  url: http://localhost:8090/readings/water_pressure_PH 
+eventstore2: 
+  url: http://localhost:8090/readings/water_temperature
+events: 
+  hostname: lab63885.westus3.cloudapp.azure.com 
+  port: 9092 
+  topic: events

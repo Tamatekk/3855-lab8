@@ -1,0 +1,59 @@
+openapi: 3.0.0 
+info: 
+  description: This API provides event stats 
+  version: "1.0.0" 
+  title: Stats API 
+  contact: 
+    email: mmulder10@bcit.ca 
+ 
+paths: 
+  /stats: 
+    get: 
+      summary: Gets the event stats 
+      operationId: app.get_stats 
+      description: Gets Blood Pressure and Heart Rate processsed statistics 
+      responses: 
+        '200': 
+          description: Successfully returned a list of blood pressure events 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                items: 
+                  $ref: '#/components/schemas/ReadingStats' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string 
+ 
+components: 
+  schemas: 
+    ReadingStats: 
+      required: 
+      - num_w_PPH_readings 
+      - max_w_pres_reading 
+      - max_w_PH_reading
+      - num_w_temp_readings 
+      - max_w_temp_reading 
+      properties: 
+        num_w_PPH_readings: 
+          type: integer 
+          example: 500000 
+        max_w_pres_reading: 
+          type: integer 
+          example: 200 
+        max_w_PH_reading: 
+          type: integer 
+          example: 200  
+        num_w_temp_readings: 
+          type: integer 
+          example: 500000 
+        max_w_temp_reading: 
+          type: integer 
+          example: 250 
+      type: object

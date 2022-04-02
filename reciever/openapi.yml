@@ -1,0 +1,96 @@
+openapi: 3.0.0
+info:
+  description: This API recieves water readings from water measurement devices
+  version: "1.0.0"
+  title: Water reading API
+  contact:
+    email: rpi.irman@gmail.com
+tags:
+  - name: devices 
+    description: Operations available to measurement devices
+paths: 
+  /readings/water_pressure_PH:
+    post:
+      tags:
+        - devices
+      summary: adds a water pressure and PH measurement
+      operationId: app.report_water_pressure_PH
+      description: Adds new water pressure and PH reading into system
+      responses:
+        '201':
+          description: Water pressure and PH added
+        '400':
+          description: 'invalid input, object invalid'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WaterPressurePH'
+        description: The water pressure to add
+  /readings/water_temperature:
+    post:
+      tags:
+        - devices
+      summary: adds a water temperature
+      operationId: app.report_water_temperature
+      description: Adds new water temperature reading into system
+      responses:
+        '201':
+          description: Water temperature added
+        '400':
+          description: 'invalid input, object invalid'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WaterTemperature'
+        description: The water temperature to add
+
+components:
+  schemas:
+    WaterPressurePH:
+      type: object
+      required:
+        - timestamp
+        - device_id
+        - kPa
+        - PH
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+        device_id:
+          type: string
+          example: A12345
+        kPa:
+          type: integer
+          example: 6
+        PH:
+          type: number
+          format: float
+          example: 5.55
+        trace_id:
+          type: string
+          example: A12345
+    WaterTemperature:
+      type: object
+      required:
+        - timestamp
+        - device_id
+        - Celcius
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+        device_id:
+          type: string
+          example: A12345
+        Celcius:
+          type: number
+          format: float
+          example: 5.55
+        trace_id:
+          type: string
+          example: A12345

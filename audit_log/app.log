@@ -1,0 +1,223 @@
+2022-03-03 01:38:38,970 - basicLogger - INFO - Retrieving BP at index 100
+2022-03-03 01:38:39,030 - basicLogger - ERROR - No more messages found
+2022-03-03 01:38:39,031 - basicLogger - ERROR - Could not find BP at index 100
+2022-03-03 01:38:48,725 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 01:38:48,786 - basicLogger - ERROR - No more messages found
+2022-03-03 01:38:48,787 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 01:38:58,785 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 01:38:59,058 - basicLogger - ERROR - No more messages found
+2022-03-03 01:38:59,059 - basicLogger - ERROR - Could not find BP at index 0
+2022-03-03 01:39:23,006 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 01:39:23,061 - basicLogger - ERROR - No more messages found
+2022-03-03 01:39:23,062 - basicLogger - ERROR - Could not find BP at index 0
+2022-03-03 01:39:38,165 - basicLogger - INFO - Retrieving BP at index 100
+2022-03-03 01:41:54,575 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 01:41:54,718 - basicLogger - ERROR - No more messages found
+2022-03-03 01:41:54,719 - basicLogger - ERROR - Could not find BP at index 0
+2022-03-03 01:48:17,388 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 01:48:32,727 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 01:48:32,867 - basicLogger - ERROR - No more messages found
+2022-03-03 01:48:32,868 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 01:48:44,207 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 01:48:44,374 - basicLogger - ERROR - No more messages found
+2022-03-03 01:48:44,374 - basicLogger - ERROR - Could not find BP at index 0
+2022-03-03 01:49:52,800 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:33:39,801 - basicLogger - INFO - Retrieving BP at index 100
+2022-03-03 08:33:39,843 - basicLogger - ERROR - No more messages found
+2022-03-03 08:33:39,844 - basicLogger - ERROR - Could not find BP at index 100
+2022-03-03 08:33:45,394 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:33:59,302 - basicLogger - INFO - Retrieving BP at index 100
+2022-03-03 08:34:00,352 - basicLogger - ERROR - No more messages found
+2022-03-03 08:34:00,353 - basicLogger - ERROR - Could not find BP at index 100
+2022-03-03 08:34:06,220 - basicLogger - INFO - Retrieving BP at index 30
+2022-03-03 08:34:07,275 - basicLogger - ERROR - No more messages found
+2022-03-03 08:34:07,276 - basicLogger - ERROR - Could not find BP at index 30
+2022-03-03 08:34:12,675 - basicLogger - INFO - Retrieving BP at index 15
+2022-03-03 08:34:13,736 - basicLogger - ERROR - No more messages found
+2022-03-03 08:34:13,738 - basicLogger - ERROR - Could not find BP at index 15
+2022-03-03 08:34:17,801 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:34:18,859 - basicLogger - ERROR - No more messages found
+2022-03-03 08:34:18,862 - basicLogger - ERROR - Could not find BP at index 0
+2022-03-03 08:34:45,824 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:40:46,112 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:40:53,754 - basicLogger - INFO - Retrieving BP at index 2
+2022-03-03 08:40:53,796 - basicLogger - ERROR - No more messages found
+2022-03-03 08:40:53,797 - basicLogger - ERROR - Could not find BP at index 2
+2022-03-03 08:40:59,554 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 08:40:59,595 - basicLogger - ERROR - No more messages found
+2022-03-03 08:40:59,596 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 08:41:14,999 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 08:41:15,043 - basicLogger - ERROR - No more messages found
+2022-03-03 08:41:15,044 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 08:41:41,993 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 08:41:42,036 - basicLogger - ERROR - No more messages found
+2022-03-03 08:41:42,037 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 08:45:09,828 - basicLogger - INFO - Retrieving BP at index 3
+2022-03-03 08:45:09,869 - basicLogger - ERROR - No more messages found
+2022-03-03 08:45:09,870 - basicLogger - ERROR - Could not find BP at index 3
+2022-03-03 08:45:12,713 - basicLogger - INFO - Retrieving BP at index 3
+2022-03-03 08:45:12,757 - basicLogger - ERROR - No more messages found
+2022-03-03 08:45:12,758 - basicLogger - ERROR - Could not find BP at index 3
+2022-03-03 08:45:17,323 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:45:23,978 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:46:48,988 - basicLogger - INFO - Retrieving BP at index 3
+2022-03-03 08:46:49,032 - basicLogger - ERROR - No more messages found
+2022-03-03 08:46:49,033 - basicLogger - ERROR - Could not find BP at index 3
+2022-03-03 08:47:11,431 - basicLogger - INFO - Retrieving BP at index 3
+2022-03-03 08:47:11,473 - basicLogger - ERROR - No more messages found
+2022-03-03 08:47:11,474 - basicLogger - ERROR - Could not find BP at index 3
+2022-03-03 08:49:01,589 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:49:09,611 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 08:49:09,655 - basicLogger - ERROR - No more messages found
+2022-03-03 08:49:09,656 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 08:49:19,055 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 08:49:19,100 - basicLogger - ERROR - No more messages found
+2022-03-03 08:49:19,101 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 08:57:37,134 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 08:57:37,176 - basicLogger - ERROR - No more messages found
+2022-03-03 08:57:37,177 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 08:57:40,931 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:57:40,974 - basicLogger - ERROR - No more messages found
+2022-03-03 08:57:40,975 - basicLogger - ERROR - Could not find BP at index 0
+2022-03-03 08:57:48,268 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:57:58,446 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:57:58,492 - basicLogger - ERROR - No more messages found
+2022-03-03 08:57:58,493 - basicLogger - ERROR - Could not find BP at index 0
+2022-03-03 08:59:00,876 - basicLogger - INFO - Retrieving BP at index 100
+2022-03-03 08:59:00,922 - basicLogger - ERROR - No more messages found
+2022-03-03 08:59:00,923 - basicLogger - ERROR - Could not find BP at index 100
+2022-03-03 08:59:05,757 - basicLogger - INFO - Retrieving BP at index 2
+2022-03-03 08:59:05,800 - basicLogger - ERROR - No more messages found
+2022-03-03 08:59:05,801 - basicLogger - ERROR - Could not find BP at index 2
+2022-03-03 08:59:08,084 - basicLogger - INFO - Retrieving BP at index 2
+2022-03-03 08:59:08,128 - basicLogger - ERROR - No more messages found
+2022-03-03 08:59:08,129 - basicLogger - ERROR - Could not find BP at index 2
+2022-03-03 08:59:15,223 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:59:15,270 - basicLogger - ERROR - No more messages found
+2022-03-03 08:59:15,271 - basicLogger - ERROR - Could not find BP at index 0
+2022-03-03 08:59:43,293 - basicLogger - INFO - Retrieving BP at index 100
+2022-03-03 08:59:43,346 - basicLogger - ERROR - No more messages found
+2022-03-03 08:59:43,347 - basicLogger - ERROR - Could not find BP at index 100
+2022-03-03 08:59:47,658 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 08:59:56,475 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 08:59:56,516 - basicLogger - ERROR - No more messages found
+2022-03-03 08:59:56,518 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 09:01:58,750 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 09:01:58,795 - basicLogger - ERROR - No more messages found
+2022-03-03 09:01:58,796 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 09:02:04,373 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 09:02:09,770 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 09:02:14,933 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 09:02:14,978 - basicLogger - ERROR - No more messages found
+2022-03-03 09:02:14,978 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 09:02:38,255 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 09:04:28,918 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 09:06:04,866 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 09:06:15,217 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 09:06:15,261 - basicLogger - ERROR - No more messages found
+2022-03-03 09:06:15,262 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 09:07:19,791 - basicLogger - INFO - Retrieving BP at index 1
+2022-03-03 09:07:19,835 - basicLogger - ERROR - No more messages found
+2022-03-03 09:07:19,835 - basicLogger - ERROR - Could not find BP at index 1
+2022-03-03 09:07:31,136 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 09:08:20,466 - basicLogger - INFO - Retrieving BP at index 2
+2022-03-03 09:08:20,511 - basicLogger - ERROR - No more messages found
+2022-03-03 09:08:20,512 - basicLogger - ERROR - Could not find BP at index 2
+2022-03-03 09:10:19,803 - basicLogger - INFO - Retrieving BP at index 2
+2022-03-03 09:10:19,850 - basicLogger - ERROR - No more messages found
+2022-03-03 09:10:19,851 - basicLogger - ERROR - Could not find BP at index 2
+2022-03-03 09:11:20,624 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 09:11:53,767 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 09:12:34,657 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 09:13:03,646 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:13:04,712 - basicLogger - ERROR - No more messages found
+2022-03-03 09:13:04,715 - basicLogger - ERROR - Could not find BP at index 9
+2022-03-03 09:15:01,720 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:15:02,771 - basicLogger - ERROR - No more messages found
+2022-03-03 09:15:02,773 - basicLogger - ERROR - Could not find BP at index 9
+2022-03-03 09:15:26,518 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:15:27,573 - basicLogger - ERROR - No more messages found
+2022-03-03 09:15:27,574 - basicLogger - ERROR - Could not find BP at index 9
+2022-03-03 09:16:06,975 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:16:08,021 - basicLogger - ERROR - No more messages found
+2022-03-03 09:16:08,022 - basicLogger - ERROR - Could not find BP at index 9
+2022-03-03 09:16:20,949 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:16:22,007 - basicLogger - ERROR - No more messages found
+2022-03-03 09:16:22,008 - basicLogger - ERROR - Could not find BP at index 9
+2022-03-03 09:17:37,358 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:17:38,411 - basicLogger - ERROR - No more messages found
+2022-03-03 09:17:38,411 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:18:28,466 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:18:29,518 - basicLogger - ERROR - No more messages found
+2022-03-03 09:18:29,519 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:18:51,189 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:18:52,247 - basicLogger - ERROR - No more messages found
+2022-03-03 09:18:52,248 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:19:25,755 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:19:29,330 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:20:27,256 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:20:40,647 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:20:41,693 - basicLogger - ERROR - No more messages found
+2022-03-03 09:20:41,694 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:21:14,770 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:23:03,106 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:23:04,160 - basicLogger - ERROR - No more messages found
+2022-03-03 09:23:04,161 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:23:26,353 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:23:27,403 - basicLogger - ERROR - No more messages found
+2022-03-03 09:23:27,404 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:25:13,995 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:25:15,043 - basicLogger - ERROR - No more messages found
+2022-03-03 09:25:15,044 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:42:54,661 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:42:55,720 - basicLogger - ERROR - No more messages found
+2022-03-03 09:42:55,721 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:44:16,366 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:44:17,427 - basicLogger - ERROR - No more messages found
+2022-03-03 09:44:17,427 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:44:42,251 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:44:43,309 - basicLogger - ERROR - No more messages found
+2022-03-03 09:44:43,310 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:44:59,200 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:45:00,254 - basicLogger - ERROR - No more messages found
+2022-03-03 09:45:00,255 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:45:15,924 - basicLogger - INFO - Retrieving BP at index 9
+2022-03-03 09:45:16,985 - basicLogger - ERROR - No more messages found
+2022-03-03 09:45:17,020 - basicLogger - ERROR - Could not find PPH at index 9
+2022-03-03 09:48:49,000 - basicLogger - INFO - Retrieving BP at index 5
+2022-03-03 09:49:22,383 - basicLogger - INFO - Retrieving BP at index 5
+2022-03-03 09:49:35,453 - basicLogger - INFO - Retrieving BP at index 4
+2022-03-03 09:51:00,695 - basicLogger - INFO - Retrieving BP at index 7
+2022-03-03 09:59:26,349 - basicLogger - INFO - Retrieving BP at index 7
+2022-03-03 09:59:34,235 - basicLogger - INFO - Retrieving BP at index 50
+2022-03-03 09:59:35,385 - basicLogger - ERROR - No more messages found
+2022-03-03 09:59:35,386 - basicLogger - ERROR - Could not find PPH at index 50
+2022-03-03 10:00:33,347 - basicLogger - INFO - Retrieving BP at index 4
+2022-03-03 10:00:42,344 - basicLogger - INFO - Retrieving BP at index 100
+2022-03-03 10:00:43,531 - basicLogger - ERROR - No more messages found
+2022-03-03 10:00:43,532 - basicLogger - ERROR - Could not find temp at index 100
+2022-03-03 14:19:09,965 - basicLogger - INFO - Retrieving BP at index 100
+2022-03-03 14:19:44,255 - basicLogger - INFO - Retrieving BP at index 100
+2022-03-03 14:21:41,859 - basicLogger - INFO - Retrieving BP at index 140
+2022-03-03 14:21:43,125 - basicLogger - ERROR - No more messages found
+2022-03-03 14:21:43,126 - basicLogger - ERROR - Could not find temp at index 140
+2022-03-03 14:21:48,333 - basicLogger - INFO - Retrieving BP at index 120
+2022-03-03 14:21:56,349 - basicLogger - INFO - Retrieving BP at index 130
+2022-03-03 14:22:03,330 - basicLogger - INFO - Retrieving BP at index 135
+2022-03-03 14:22:21,127 - basicLogger - INFO - Retrieving BP at index 135
+2022-03-03 14:22:30,145 - basicLogger - INFO - Retrieving BP at index 150
+2022-03-03 14:22:31,329 - basicLogger - ERROR - No more messages found
+2022-03-03 14:22:31,330 - basicLogger - ERROR - Could not find PPH at index 150
+2022-03-03 14:22:37,028 - basicLogger - INFO - Retrieving BP at index 140
+2022-03-03 14:22:38,307 - basicLogger - ERROR - No more messages found
+2022-03-03 14:22:38,308 - basicLogger - ERROR - Could not find PPH at index 140
+2022-03-03 14:22:48,174 - basicLogger - INFO - Retrieving BP at index 137
+2022-03-03 14:22:49,448 - basicLogger - ERROR - No more messages found
+2022-03-03 14:22:49,450 - basicLogger - ERROR - Could not find PPH at index 137
+2022-03-03 14:22:55,399 - basicLogger - INFO - Retrieving BP at index 136
+2022-03-03 14:23:17,947 - basicLogger - INFO - Retrieving BP at index 0
+2022-03-03 14:23:33,938 - basicLogger - INFO - Retrieving BP at index 136
+2022-03-03 14:23:40,951 - basicLogger - INFO - Retrieving BP at index 137
+2022-03-03 14:23:42,182 - basicLogger - ERROR - No more messages found
+2022-03-03 14:23:42,183 - basicLogger - ERROR - Could not find PPH at index 137
+2022-03-03 14:24:33,161 - basicLogger - INFO - Retrieving BP at index 138
